@@ -1,0 +1,40 @@
+@media(width:400px)
+{    
+    h1{background-color:purple;}
+    div{height:100px;
+    width:100px;
+    background-color: red;}
+}
+
+@media(min-width:500px)
+{
+    h1{background-color: yellow;}
+    div{
+        height:100px;
+        width:100px;
+        background-color: blue;
+    }
+}
+
+@media(max-width:300px)
+{
+    h1{background-color: green;}
+    div{height:100px;
+    width:100px;
+    background-color:brown;}
+}
+
+@media(min-width:100px) and (max-width:200px)
+{
+    h1{background-color: magenta;}
+    div{
+        height:100px;
+        width:100px;
+        background-color: cyan;
+    }
+}
+
+@media(orientation:landscape)
+{
+    h1{color:red;background-color: green;}
+}

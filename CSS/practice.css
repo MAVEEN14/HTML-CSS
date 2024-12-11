@@ -1,0 +1,27 @@
+*{font-family: 'Times New Roman', Times, serif;}
+
+h1{color:#b92b27;}
+
+#login{background-color: red; color:white;}
+#signup{background-color: brown; color:white;}
+
+div input{background-color: yellow;}
+input[type="text"]{color:red;}
+input[type="password"]{color:white;}
+
+nav ul li a{background-color: red;color: white;}
+
+ul{list-style: circle;}
+
+.abc{color:aqua;background-color: blueviolet;}
+
+h3{color:red;text-decoration: underline;}
+
+.upv{background-color: green;color:white;}
+.ans{background-color: red;color: white;}
+
+#gre{color:green;}
+
+#p{background-color: yellow;color:red;}
+
+div:nth-of-type(1n){background-color: brown;}

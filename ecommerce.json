@@ -1,0 +1,28 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Redmi note 7",
+            "price":12000
+        },
+        {
+            "id":2,
+            "name":"Poco C3",
+            "price":7500
+        }
+    ],
+    "orders":[
+        {
+            "id":1,
+            "date":"20/09/2024",
+            "total":1200
+        },
+        {
+            "id":2,
+            "name":"23/09/2024",
+            "total":5000
+        }
+    ]
+
+
+}

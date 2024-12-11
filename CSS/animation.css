@@ -1,0 +1,45 @@
+.animate{
+    height: 100px;
+    width:500px;
+    background-color: pink;
+
+    /* animation-name: font-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite; */
+    color:green;
+
+    animation: height-animation,font-animation 4s ease-in 0s alternate infinite;
+}
+
+@keyframes height-animation{
+
+    5% {background-color:red;}
+    20%{background-color: aqua;}
+    35%{background-color: blue;}
+    50%{background-color: yellow;}
+    100%{background-color: black;}
+}
+
+
+@keyframes font-animation
+{
+    from{
+        font-size: 20px;
+        background-color:green;
+        width:90px;
+        color:yellow;
+        }
+
+
+    to{font-size: 50px;
+        background-color:blue;
+        width:500px;
+        color:white;
+        border-radius: 20px;
+    }
+}
+
+

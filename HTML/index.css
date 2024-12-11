@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    position:fixed;
+    top:10px;
+    z-index: 2;
+    background-color:white;
+}
+
+.imgs{
+    width:100px;
+    height:100px;
+    display: flex;
+}
+
+.body6_cards {
+    border:5px solid black;
+}
+
+h6{
+    text-align: center;
+
+}

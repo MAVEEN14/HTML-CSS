@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form elements</title>
+</head>
+<body>
+     <form action="server">
+        <div>
+            <label for="username">
+                Enter Username:
+                <input type="text" placeholder="enter username" id="username" name="username">
+            </label>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="password">
+            Enter Password:
+            <input type="password" placeholder="enter password" id="password" name="password">
+            </label>
+        </div>
+        <br> 
+
+        <div>
+            <label for="age">
+            Enter Age:
+            <input type="number" placeholder="enter age" id="age">
+            </label>
+        </div>
+        <button type="submit">Submit</button>
+        <br>
+    <hr>
+
+    <!-- YOUTUBE PAGE -->
+    </form>
+    <form action="https://www.youtube.com/watch">
+        <input type="text" placeholder="search in Youtube" name="v">
+        <button>search</button>
+    </form>
+    <br>
+
+    <!-- CHECKBOX -->
+    <hr>
+    select languages
+    <form action="/server">
+        <input type="checkbox" name="lan" id="pyt" value="pyt">
+        <label for="pyt"> Python</label>
+        <input type="checkbox" name="lan" id="c" value="c">
+        <label for="c"> C</label>
+        <input type="checkbox" name="lan" id="Java" value="Java">
+        <label for="Java"> Java</label>
+        <hr>
+
+        <!-- Radio button -->
+        <div>
+            <input type="radio" name="fruits" id="apple" value="apple">
+            <label for="apple">Apple</label>
+
+            <input type="radio" name="fruits" id="banana" value="banana">
+            <label for="banana">Banana</label>
+
+            <input type="radio" name="fruits" id="grapes" value="grapes">
+            <label for="grapes">Grapes</label>
+        </div>
+
+    <!-- DROP DOWN -->
+    select your profession
+    <select name="profession" id="profession">
+        <label for="profession">select your profession</label>
+            <option value="select">select</option>
+            <option value="student">STUDENT</option>
+            <option value="teacher">TEACHER</option>
+    </select>
+    <hr>
+
+    <label for="volume">select your volume level</label>
+    <input 
+    type="range" 
+    name="volume-level" 
+    id="volume" 
+    min="0" 
+    max="100" 
+    step="10" 
+    value="volume">
+    <br>
+
+
+    <!-- text area -->
+     <label for="textarea">please give your feedback</label> <br>
+     <textarea name="feedback" id="textarea" placeholder="write your feedback here" rows="2" cols="50"></textarea>
+    <button>submit</button>
+
+
+
+    </form>
+
+
+ 
+    
+</body>
+</html>

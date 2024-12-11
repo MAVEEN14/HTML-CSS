@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+ 
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header" style="position: sticky;top:0px; width:100%;height:50px;margin-top:10px;">
+            <div class="logo">
+                <a href=""><img src="https://genamplifysol.com/_astro/navlogo.BCS2dY3E.png" style="height:75px;width:100px;"></a>
+            </div>
+       
+
+            <div class="components" style="margin-left: 200px;padding:5px; text-align: center;">
+                <nav>
+                    <ul>
+                        <a href="https://genamplifysol.com/" style="text-decoration:none;color:black;padding:0px 10px;">Home</a>
+                        <a href="#" style="text-decoration:none;color:black;padding:0px 10px;">About Us</a>
+                        <select name="Services" id="services" style="padding:0px 10px;width:100px;">
+                            <option value="Service">Services</option>
+                            <option value="Service">Web Development</option>
+                            <option value="Service">App Development</option>
+                            <option value="Service">Digital Marketing</option>
+                            <option value="Service">Staff Augmentation</option>
+                            <option value="Service">QA</option>
+                        </select>
+
+                        <select name="insights" id="insights" style="width:80px;margin-left: 10px;">
+                            <option value="Insights">Insights</option>
+                            <option value="Clientele">Clientele</option>
+                        </select>
+                        <a href="#" style="text-decoration:none;color:black; padding:0px 10px;">Contact Us</a>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="btn" style="margin-left:150px;">
+                <button style="width:120px;height:30px;background-color: orangered;color:white;">Get a Quote</button>
+            </div>
+
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="body-section">
+
+           <div class="body1" style="display: flex;background-color: #f6f6f6; width:100%; height:500px;">
+                <div class="content" style="margin-left: 75px;margin-top:50px;">
+                    <h1>Amplify Your <span style="color:orangered;">Vision</span> <br>We Build the Future</h1>
+                    <br>
+                    <p>We amplify your vision. We build the future. Your one-stop shop for cutting-edge web, app, and IT solutions.</p>
+
+                    <button style="width:120px;height:50px;background-color: orangered;color:white;">Learn more</button>
+                    <button style="width:120px;height:50px;background-color: orangered;color:white;">Contact Us</button>
+                </div>
+
+                <div class="chatgpt">
+                    <img src="https://genamplifysol.com/_astro/banner.DjyxSYtB.png" style="width:600px;height:500px;margin-top:0px;padding:0px;">
+                </div>
+            </div>
+
+            <br><br>
+
+
+            <div class="body2">
+                <div class="heading2">
+                    <h2 style="text-align: center;">Achievements & Certifications</h2>
+                </div>
+                <br>
+                <div class="images" style="margin-left:100px; display: flex; text-align: center;" >
+                    <img src="https://genamplifysol.com/_astro/c1.BNTEdsTA.jpg" alt="" style="height:150px;width:150px;padding-left: 50px;">
+                    <img src="https://genamplifysol.com/_astro/c2.C3zwPgwB.jpg" alt="" style="height:150px;width:150px;padding-left: 50px;">
+                    <img src="https://genamplifysol.com/_astro/c3.CKnjvLwX.jpg" alt="" style="height:150px;width:150px;padding-left: 50px;">
+                    <img src="https://genamplifysol.com/_astro/c4.CEvhHkwV.jpg" alt="" style="height:150px;width:150px;padding-left: 50px;">
+                    <img src="https://genamplifysol.com/_astro/c6.D_TNkSxg.jpg" alt="" style="height:150px;width:150px;padding-left: 50px;">
+                    <img src="https://genamplifysol.com/_astro/c5.BSVrObVu.jpg" alt="" style="height:150px;width:150px;padding-left: 50px;">
+                </div>
+
+            </div>
+            <br><br>
+
+            <div class="body3" style="background-color:#f7f7f7;">
+                <h2 style="text-align: center;">Our Services</h2>
+                <p style="text-align: center;">Transform your incredible ideas into tangible realities.</p>
+            
+
+                <div class="body3_all_cards" style="display: flex; padding:3px;">
+
+                    <div class="body3_cards" style="width: 17rem;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAVUSURBVHgB7Vk9bBxFFP5m78f5sa0zHSjFGjqniCOQiEQRp0gqJLASCgoUu6H1RQLbFCjnCidB4lxCE6eiCbJT0EDBpUACiQiniKlIFoFIh0+2kzi+ux3em9ldZu/27nb37kIU+ZP2dnb+3nvz5r2Z9w44wAECbH9sz2zP2+8mGSPwnGB3wb5Orxnvc6P2FGfGyk6127gs+oidj+wpkcE7VJyix6an4DUxIxv8yAZujXzuVCKGzxjlydwQ1uh9Bl3QFw3skuqFhctSM90VRNSRLpaGrzmrwRwL9g/QgpsoD19xLnWZKz22Fm07L7FGjE8iBViQfUFbZdlxeK6cS6sumuaSuDR81Sl3mCMdnszbFxsCPHEBvaHqSsyOXnXWlRASrAnbbCd7GG9nDxZS4BF5CmJ+Fb0zzyhYAmtPPrEvsiZqQu17k9kC2cPldoMTa8BbpV/RH+ZNVIn5kyzE7rxdJM6+MBtJC2NRWkisgbxWcb+ZZxRoYdjzwNvzjtmYzaMYNSiRAOxt4nqalJhkGqoksWI2CIG5qAGJBGBXiQHDp1HbVzYWsoWdRXuquX9sAfiQGvDqKzANZpT3O3mnW2abcFvddXwNZJDojtITpEdLohKqFi0HXXwByF2dwDMC0TrN74a+fgSwInhIYgNKfUMffIkjpbsQY8dwdPkBDs99i8yrp1Q5+/oF1Tb03jUqn9d1b80i//anXvv54M3zcNl6ZQJHaI5DH35t0rLVby3siWSE90sigBrcePAzxKFRZI+f1RO8PAFBTDDch5tw/95UTLFQjMxrp5Sw3Na4972q42+uV+PH34SgOXhcM60Iv9+TAArSI5SZOBcQzU6chdzbVt/8KAZJCLn1lxIk89IxVc99uC57/JxaBC7n3righaeFSYMkAqjV8Blhxhr3fwqY5LJqpzczx6ta+/F6UG7c1wzW732ntMbYp3a/3KQBRWuraBeieEgngNT70V9pRfThb2h45cbvWgCfUcXsLzdVf913M/RWAv/zZ1Dn0kIY0Maba3HbTtN3/ICGXNht4Rny3lfv/8fknZt4avYjhh8tjgffj0thx1G/8416gm+jbzAHcBeK/7Dfp/o/mvvG14DAOp4VfFqWdqcBZNit6i4xMbKswkAHg4fj0WKED08rfLDpqiQQWMKg4dHwLnWmEZuCBUgkwPAyxbARauwjHEUDkRfHStSAjkZshI3IWCge/sy5UbMwPYiAhgy0WtfRGEd8LQmCWhvtd9SAK1CCZrTQcFHmaIwjJqrvmClIA4viYj+4l5quiVVuixyHDmi6exQ4GmMCo6RmuupOI+JgSQpeedr3s0e9oN6L+Ew4tQ62Z3WZfSn8CY6H15QQRJBjWPTmmTZo25zkfW+kaOxQD2K+3err5i7YWbDL1GmuaVCQz+Hv3UXyGFIZnY14cJgx32D9lW9mnr5XRq44xU4TxcpKtMmaVVlDZtJJhXwUjHDswMku4W1B3iaCriJ8mvMhZbrDxwv2nIvA1kxUKCvXn9QiX6pyedqbojWki0oTxpxvhgP1NmFqhdIo03GSu4nyQlHbyQATW4dLq8zZZQpGfAYUw3Qxo5WeJHd8WuoTNtINx9k2qQVgpNjvseBts6VOedAoJA5o2PA4/Udu9Ab6BF71OuU/kzLP6Dk7nXFRotwm3xrtJGM9/79S30M5zl5vh779Q6M8kIspEuaElCRMq8E7gv/gkLgtLWxEXczSYGB/MZHrleY3ucSB0EqVXn+e8L//wcHniGWhxDddpEBqDRg31Z7ABxnfdJESqQWQ/Y0HUnuhXjTAMYGDHuG508GHqgc4wAuKfwG8nD90/Fe5KQAAAABJRU5ErkJggg==" class="card1-img" alt="">
+                        <div class="card1">
+                            <h5 class="Web Development">Web Development</h5>
+                            <p class="card-text">Craft stunning & websites that convert. Expert development for all your needs.</p>
+                            <a href="#" class="btn btn-light">Learn More</a>
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div class="body3_cards" style="width: 17rem;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAYAAADhXXHAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAVJSURBVHgBxVlbUuNGFL0t20BqPBmzgogdwApirwBmBcAOPFUJQ1U+MB+pYsgHsAKYFYSsAGcFOCugswJcA9QQvzrntFpCViRZsk3mVLkkq19Ht2/fl5Q43Lf9xppIQwrgWaS/fq77Mie+tn0/r31ck4YxARelpF//Tfd4X416rEljbOQGd7kTAVqUtHCdi+zTR/9uPHsNLPGCx49+t/5Jt7z7Q9/HnzOIq48HG0bkImsCtF0P/5Gt9ROtOebxZ39TSuDhJ79pChBNQdP8svGD5/60V1bllsTfftJtvNa+JCVn5APa3nMHIJ1bjjGVYmoTTaFSiWrO7dbs5o33XriIXzNy+3jgt+sn+mqoZMtOhN9wIlv1U33+dODvsA/6lpJoLpQcc26uya02gYppySPr0MDgs7ha2G2HgvMZJvpdpJw0Z8E4YtRlqNXe2xNN/dyQlDPhZcwRqQW3HUR58NrJTmo8l/5lkfbB5ujh0G+6R714+9PArFfzBmPL7+SVYSZup6C3w4Fc0SR+PfB3YTGaU/1wPrzqaHnSmQeekh95pd5Wq7LJXRwruUrrWx3B6Nbkm6INgk13n3twqzKEgq9aZS59cLA1ukz/cUW6nkltmmldRs/Ss47iC0xSRcmuKUgYg/pwh39y65JtX3CiSYqOI23s46G/B/3clYLgWuj/+c2pvpZlgi+NLTUPB35HXgGeLBNmuTY4iar8D6BDwXbuDOhgFojWSkuWjsI6ixQod+BUzPuA6CUu7QnPw9piki9NFo7iaAWhZBphukoc1I3w4DHOwGUPB7c/mkgr69C9ClkSVAzX4N2yCH8XIwRpavS/tkRdAL0IVJnODDTwepexwXqgAom5NpqkHiK2i0WlmIZSZBkZJYPnkDCjtNoKMg0lm/GXYB8bdIexLDzm2JPePC9T2BpQcmlRfqgSgzVpDZ+lRcIgtgnd5g60LL+K3MSlUjHW9+9LSRQmqxC+mYy2NMIqnhUgC0B0Ff0fGpnLGxVSg6Su5kwWqUR1VTo2RVoiCpFN09WcCaf0dZmYabqydDULeWZtUcwkS12VkngtwrlkF8jzX4XwTJ1F2HeF1KNw/JmywEwd5guF6dWoKjqrb6ZkGSlxku9P9d4Ewa/MCQYwtUTyZwmitsYf77kD1hbj5+yzhG1xqLRJaqtyhtu9uFTmkDArLRdhxjq1BoSwEtTVwrpBM0Hq2gTPNOoWrXC8ShJFveAmXnGZ8v9B/aAp+ejCgx0zAsvqwPJTiaqOLcrxZsqDUaLJSWIHhd7pfej/ZQ6SBAWScmi7EyWfvYmtCG3LtECivpFkuTV5RY20gKUMyTimdgjFjWTiiapMR5nIZLIGtu84BGCy5wW1LClCmO4UD67LkHQCYQWyEfCUP+CSd1jwwwvznPRxIvfrQW0teiG7LlKiSA3GA+T0q/mLuZLSZf3c6lBpv18ZY3HvJbWB9LpuXkrRt/cehIB8Dc/+Uo4s1228Ue8i02VPHOuk+WT7KH/m9skDyOmZfUTeZbVN2VnqDvUvq3OYnnDb0uzgLIxGtjLYjTHbtlcTFJJpsoZBUZnEtmNDu+rXu79TPVhCwa1EEZ9+YMEXRI/wQh1h+hKzgWUwpY9GOqi2HCfaqb9tt7bV6+DdMmBdoAkGoHh3TjsbIxqih5O6JSXgnM59/BkPEL9XuPudhGljUXvdtRVHUuIWKaZnFpCi32bY6v+AH2TCIL5UKg4z1UnqdMZHjVzABbfAgvqr0+IO98VI01HEs41Skg0Rk7AeLiErgI7SGfnub+Rek5iL7LJhv2660tLzc/bXy38BvsSdXkFitckAAAAASUVORK5CYII=" class="card1-img" alt="">
+                        <div class="card2">
+                            <h5 class="Web Development">Digital Marketing</h5>
+                            <p class="card-text">Grow your online presence & sales! Data-driven strategies for lasting results.</p>
+                            <a href="#" class="btn btn-light">Learn More</a>
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div class="body3_cards" style="width: 17rem;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQYSURBVHgB7VhdUhpBEO5ZheRBErzBeILoCcQTaE4gngCsiuKb5E2TPOAJxBMETxByAskJ3JwAIlqJgEy+XmZh2P+FfUiq+Kq2dnand7a3p7/+WaIVVvi3ISglulVZzOepogTJjUv7KEjm6VQeYH5fvdBN4YvdpgyQSlFWMveKutMbY9rZ+Gx3vHKPNfkNp5KWOYJMk5aElUZ4s2H3cGq717DagVemeyYluUoCw7WZ/DJIpSgDyn10x0JQha1szucUnRuXzc0L26YMkFrRwgV8TpG73cVcnsrmvDCsiY+6oYywTgtAEd1CoW3nAqR5PJFtpahoWbSLOanFbOejMsJCio4G1ACp3C0uYV/umJXKFFJ0RRki9dYzDCVD4fjvhFiZIHUcRei5xqmcRBaL2wNBe1kQKpVFNcNLSeXHTLYU8lFIbVHG45ks0yQMyaB5+GoPK1+N/lBDx96lkVhRMHvbm4XYB9fGtG1phccW9awX6vjkeCdeU3EZFxBJlOp/kCWxRpwWm0ME/KQvNOqCKqx8U7i0q7QgfIqylZBd7jHswMmuOE8HEKiNOQ7mPuv9rko5zMPKgnb1M27m6g2faWtRV/Ap6lWKmasmLytGrNPTh/ROsL/CNVpICD+GA6TUBRX1BXws+FOIuRdJiofvQ7ImVKCPOtvPYSWC2THowJffZ1WQMGJZ36/JrxA6oOTowBf3XCt2QcycRYdk+Kt2p3YaYsYGfLjCL0oO27GkVhKV/jmUvMOwSoZraHcqM2lZJsnCfjLBAlwJTW+s0blIml0EqvmLSTXPCiAs1T0Stj7LubuKjjc+2Q2KXNqraE3e02J+aaOH2uKBEeK0HtQaCTp2t1knijpC2OH06ZC2xsVCZV4I2u7AW+UXPE2gVrj8VJNvlfZ/YVEFp6OwxX0+qoviln4xHzYlAeKkOzRdZWi0Ll4MnmeKqRjC+izqTXMPJ7KMyv2a4vS0pu3JNPYyu6NYzaSDq/E8y0cllHjWvyTsItU4+kXLIlRRLiiYuXnlFCNJFpLGpROe2LLeLnXuHZMOQJrPhMG39bpS2sewrCi5lZB237njsaJbl9G6bTkOesZDulbE8n6LQkl+2BugY3M1k8G1nqXIjIlVLnTM/onlvMVPFOkCFVXzD7Q5iI9QniEJRC4EFNfzzgeSEw/VnBWdLMQxmg/9W6hsPoz5StTigbm+fyrr+IS22Zfr/06cDiWFowfL7LhM75/JulDxHauBZtiPt1Q9E6dXmuTuKMwXJbMsxIW01DJclNzi7eyXJc/HBCqburl7QGMHH4yLq6nKvADLN6DsHAFT/4B4g6IDSnBOt8NkOCylaZPhYnVEitl/KjHLcrNbS4DbZlhiH0STWIkZb4OM3xet6lH7NhDmOm4FtsIK/xP+Aja7tg1ycJXZAAAAAElFTkSuQmCC" class="card1-img" alt="">
+                        <div class="card3">
+                            <h5 class="Web Development">Staff Augmentation</h5>
+                            <p class="card-text">Find the perfect IT talent to fill your gaps. Expert matching & seamless integration.</p>
+                            <a href="#" class="btn btn-light">Learn More</a>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <div class="body3_cards" style="width: 17rem;">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAqCAYAAADf/ynVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMsSURBVHgB7VjbTRtBFD2zZk1QIDIVZDrAVICpIE4FMRWESAnwB3yFR6SYCgIVBCrAVBCnggwVYAWQIA47OXcf9q7l16xRhISPBLtez8w9cx9n7hqYYoopphgLChPg+qOuqALe8LbKPx0/biLAUbuAxuKeMciJ3MRuNvVXXtaHLGweLD68OjCnyIFcxEaRSqPgoTb32ZzAEc7Ebjf0tlXYcZjSaissu4bVcxl8taU1t1KDG0q+xTc4womY/4CK7Sa5CypX67rkMsGJGEe/Q074RTdPuxEDysgJpbDkMt6VmFM4JoErsf+Gmd4HkqSSD1a8E6Cx8MU0Ul8b5Et+BBaXaRsFH1WGV9NOs58IZ4hdfdJl38M5b0uhwBWwfbupT//cY22xblpc/MJT+YgxNo3QBiWnaHGeVLfYoWA32/dYFRvd4QkpmeDhO3ryiAtUZ4qRyisPx8gHs7AXeT5NKoVycTardR1iwzSKLn8v7o8Xb8AVCrty+b2hq4NsiAPSWtchFihUBq9M9fajBXm8rPHSwvhozO+Z44jfcLmZedH93rkqwzMvwCqiQhhJirnzFjmQJjasPTHzh6aZfJB7em6VxdC3a2BYWjzod+f3TSahkwIYhL936NjIdBesjl/olwMMXxKOXkjRFAKUJUxKCHloioEMoawNqfpK73PZCHN4p2uyxwg7gfOEnOxcWe78wNTxSAg1rIg6Zadz7tLO0cK+yfR3ffuxG+qZLaA0bOeJSHoelriItrHMiNcY4p99xDk7n06giOpBNjLEkh4+MSTtsQ1wke7f4zHbwNAqThY3VgqAYUrP52ZWEKm+DsMf4Kz3HUElu/dnQ3GtDDIg/Tvdv4IxW+o885k2Oy8PzG48J0xIUd0angICFtqhOfbCdvmpkBLEzaiHu1DFDZ4OjPyLckwqxGKdH5ZspEdhhdn46FGP3yAaZPXS0EaDeXiWtEAjX9/iVugHHg9NngjLowaNPCsXefzYuDuYFBKBdhA2ASMx9gvv9ZauUG9qacV2gOHmTiim9UGCnZtYGkJS8XykMU2Xv7apHFRRXor6X/LcND5zZ26CH1emmOLZ4R9opDygd8KyNwAAAABJRU5ErkJggg==" class="card1-img" alt="">
+                        <div class="card4">
+                            <h5 class="QA Services">QA Services</h5>
+                            <p class="card-text">Deliver flawless products. Rigorous testing ensures exceptional user experiences.</p>
+                            <a href="#" class="btn btn-light">Learn More</a>
+                        </div>
+                    </div>
+
+                    <br><br>
+                </div>
+            </div>
+
+
+            <br><br>
+            <br>
+
+            <div class="body4" style="display: flex;">
+                <div class="body4-content" style="width:400px;margin-left: 70px;">
+                    <h2>About Us</h2>
+                    <p>Genamplify is your one-stop shop for amplifying your business potential.</p>
+                    <p>We're a team of passionate tech experts dedicated to turning your vision into reality. Whether you need a stunning website, a powerful app, or a strategic digital marketing plan, we have the expertise to deliver exceptional results. We believe in building strong partnerships and work closely with you to understand your unique goals. Let us help you navigate the ever-evolving IT landscape and achieve your business dreams.</p>
+
+                    <button style="background-color:orangered;color: white;">Learn More</button>
+            
+                </div>
+
+                <div class="body4-image">
+                    <img src="https://genamplifysol.com/_astro/genlogo.DdcnIF86.png" alt="" style="height:500px; width:380px; margin-left:80px;">
+
+                </div>
+            </div>
+
+            <div class="body5" style="background-color: #f7f7f7;">
+                <h3 style="text-align: center;">Why Choose Us?</h3>
+                <p style="text-align: center;">Stuck navigating the ever-changing tech world? Genamplify is your partner in progress. We're passionate tech experts who don't just build - we amplify. From crafting user-friendly websites and robust apps to finding the perfect IT talent and executing data-driven marketing strategies, we offer a one-stop shop for all your business needs. We believe in collaboration, working closely with you to understand your vision and deliver exceptional results. Let's transform your ideas into reality – together.</p>
+
+                       <br>            <br>
+
+                <div class="body6" style="background-color: #f7f7f7;">
+
+                    <div class="body6-1" style="display: flex;margin-left:7.5rem;margin-right:7.5rem;justify-content: space-between;">
+                        <div class="body6-cards" style="width: 15rem; border: 3px solid lightgray; padding-left: 5px; margin-bottom: 20px; border-radius: 10px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAlCAYAAAAwYKuzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANMSURBVHgBzVhdTttAEP5mDULqS3ODxgIC6kvDCZrcINzApOW59ARJTgC8VQKFcILSE8TcgKcKSCubG6RvgPBuZ50fxT8J9sZR+0mRst5Zz+fZmdmZJRQEzymXA6zXADmUEH6lN7hBASAsiV+fKg0LaPGrqrEpP1Cys9Ud9LAEliL40Ky0JFF7oZBSbbt734EhjAlmIjeGVPi62b07gQGMCHrObhmW8nIsGSJ4su2eP0ROCBggEKilPL6CkHsQ1l74P4qSFBsODLAGAwgla6AZ4yv4dvdufzLkiD6AtVHTxKZrSH2AAYwsmAAhsnXjrSwkzRgRVKC4L1VDvxxj/L82KyCl+gMDmG2xRVecPr5EHlqq/7tZuRSC3vKck1gjyIUBjNOM19zxeHU5k/DIR20YwNwHLUsHRba0IakOQxgTtM9+3nAk72vrzBVS/AFEdbt368MQS0WxfX7rautw0FzG5yRwCsnJWcssASMf5GBoC6JWnjWmx52RBUllDI5ZRf80Ua8Q/z3B1ER972xXF1XEpERbKulPxoLEOw5ZJyqleux3D1MZKXpYgHk6E0EyrfNyFJqes1XjvNiPvpnTS8YIXqRTpAqOFLQ9HmPFeE2nSBWcYMUks+gUcwXnLFgpuRSdIlNvUTDJPDqFJDSQCeSgIDC5o0yCRA2B4LmOdbLDH+DGRIZhn6Hn5NMeigI3UDM64xWRO50Lnupr4/I8FGKTXjPr2oxwSQbU2Dy7baNATHSOt7oUmVTy0v428CfD6Ekin08Q+yJdFHiH21UUDM95X031Q2m5Ef2zg/DLlDpNLhJ9j684UBAGYWIP+gk1RJ147Zg8i7UVk0UobwN99z7vHM82R3nB7WiJW4XjtdGpE9ta+JvnSVdKEAytqEv0tEpZ4Ug3R2zNizxE9c1XmKasDd3HHKW815/XFtD8lzIBofqLGyOly35Xl89xxVLKU2EJxS5TS7n5SpCb1xYsrKjHdzAXQOpVRxFwEdDBop4lU8nvNXcd/tRW5jbzNehmSqBjn7/eAuTqSZYnql1C/MDL40nWmy6z67dDzmHBS4Nz5Ee2RpXfUkrno9tOaD+95pFr0uEtfQWsodMH1t+U+RQYEV1jx398HJrcB8bxFxjafelgyDCNAAAAAElFTkSuQmCC" class="card1-img" alt="">
+                            <br>
+                            <br>
+                            <div class="card5">
+                                <h5 class="Creative Design">Creative Design</h5>
+                                <p class="card-text">Instead of just designing, we innovate. Use interesting visuals and stories about your brand to attract people’s attention so that they can distinguish themselves from others.</p>
+                            </div>
+                        </div>
+
+                        <br><br>
+
+                        <div class="body6-cards" style="width: 15rem; border: 3px solid lightgray; padding-left: 5px; margin-bottom: 20px; border-radius: 10px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAnCAYAAAB9qAq4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQ4SURBVHgB7Vg9dhs3EJ4B+ESXrNNkN7ElvjSxThDqBFJOoJWYXtEJJJ1Acm1TpE9g6wRen8B0kydGTpZq0oZllEcAmcH+cCku9ofSe1Hhr+CCiwHm2xlgMBiENREFXscfTWdpG8TGEQAGgGYGiCHM787S/ocAmwgzES3agUDzIyhBBK6nllxr4wMYfLksbcag/t1hklHQ9UCaoTL67fPLmxE0gKgreNvfOgLZjgTCOVnoM5OzHfLZ+So5Br1rtU+4ZWWN+ShRDKP+VvTl8EUANVFpwSj4gRTNhxkJA1P/cuLHfc97IOWHcg2447+5Dq2l6QPpTSfpmYKivvRDHSi14G1/cx+kWnYfmjBrS3kCVTAmsSKtR2Ne5XrY7Z/+ONz6FdYheHu4eaIBR7D44hi09vgRBS+YdA+q0Yt+6cZyWozu9XV4yUSkC5oQtOQQTwu6xou1J4+gJrRSe/xMxoYrAqTLZckVgje0rhzkQBtztfhnelATQoj9xTDzsVCGLZla2kWQw0FLyiG4FYWxnHWvB/XRScbwJKFTypih3UwugiDhpEwx78ZESQ8aQqdj5v+MS8Ro42ycQxFBG0zBBCWDFxMj/AQNYYM7JLuZg7gTGORdvbBgbD0nDO2d3D8PGgN72WgNn0tFk9D0FY8Be9R9OewGCNorExQUZOPkoOtpoQNYA83mwNn3l5OLFjclGto52CkfoN7bX6lfSsC11ogSakqPkSWLlXNwqnYhkvhUQQ6gLed/24YRlbKPhM5fff9b2sWmlsJvBpHdxVVLoQwI6PGzKoNJcYdtXyjR8uCJQmnl1U5Y/y88aYIScSaknk/hqQLFjCzYmtaR5R3FTwOilnwRDJgpP+NzvwYosRDJjnrw9bAO2GVxS9WJHDNOLGygVgaPq8LHnW7bU0dqCLUwZ7AG6CRJshg500aXziESa3/FQ5Hdi//sd0cIZt8takb+4PcDbkX9zU/2Yt4MY38w2Y7Hb72jx14dXVkcRAWnUIoGCWeRyiYJb3K1ZWQEeTdrgFclw7z0QoOIZfeKQqDRNhuK53Bbnznkz+qlk0Sou1MubbgGQ+tZPLHG99AUOr3TtNxLg3RbDnlO+T/2QiPlz+CIi0sX8LIPKVDsj24sQY1yzyEzo86d+yW7lbPYf/3bmGoxx0Vz0L14NzfjW6iLXD1HCNgtlJF4XJSGFSYL/uX1iEgeFHR5izqLqe/m5XqOt9Iv8MB/TToL4MxmLEkht++7cuFm67IQKkC798pZz2G3cnnOQa6UoCXB7qZ1YQAzd3KdJStPIFYeeajQFoWSwkAv1xXS3NtZtWIdgpYkff13g+vAujy2JpWBN6xSnrwsNFER6iy1nhCaDwHPVhXYaoPJTp3Uv1GNmkGnCLt4N61R87uiU4itbj8Mktgn2+/Y4lUWezBBFyK6W9Nu3U9mvfLfTC7gEfAfogHPCm2+UNAAAAAASUVORK5CYII=" class="card1-img" alt="">
+                            <br>
+                            <br>
+                            <div class="card6">
+                                <h5 class="Modern Design">Creative Design</h5>
+                                <p class="card-text">We create designs which are ahead of their time. Our works are always current, functional and suitable for digital platforms.</p>
+                            </div>
+                        </div>
+
+                        <br><br>
+                        <div class="body6-cards" style="width: 15rem; border: 3px solid lightgray; padding-left: 5px; margin-bottom: 20px; border-radius: 10px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAApCAYAAABHomvIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAP4SURBVHgBxVlLVtswFH1PMqXD7AC75Xc6aVgBZgWlK6iBdhxYAWEFhVnPKQGzgsIK6q6g6YRDAuc47CCdQYmlPilOcBw7tkM+d2TLsnXzJN13n4IwATSdlTJnzAaQpedWbAsR1A3o1C231YYxgTAmfMcsAXtVoS9s02fKGd09IeGKCby03JsWTJvg3e66w1F+pctS8belCwE7yku0EEEdNb54Tpfb8FIgHEPn8Shr+nMT9J11E7j8SZcmTA4tCHBrVDQZ5MCUyIH+Hpe/7/dWP6V1yIzgFMkNgIF0lmrNi+H2LHA4hCmTUxCArv953Y63j4xguFvPYXZo05rciK7JkREkcocwW5BKDAYklaCKHsxgahNg3+2uOL2bVIIUvdSdNW1wZP2Z0wS1AEcQ3tswP5i9KIYRfB1LWUZWbp06KIp6Bg2tc3EwXpygpB2I4NFFDueCKiBZ6dJWM2kEXJSXa83L6BNyHiYrkqUlpSwxOmXFoTVP6gSQioAtbDMu5ZAjQZDFXApKr6iNgk6QGWmOuMlIwc34A0lmEwoBC9uugA+Pm/DdskFTuRRvloh1RbMAtv291XNaGvfRRsqvLevs1k0cWkI5h5cqGUlumIuHS/J9BQ0pOoPrVtYpTB/TejPE95ANU8mMGW/VJlLKExgTAuAEgn8Zm0aakAOKYMmnoif+wDprVmktXkAxeIC49bbW2I865eREkFnHhARJIgTDRE16U7txaMCj7M90iVm1xpZ1euMNkiGdNV7F5CR3ImgZtFrbDLBCv+o4qT6gAas0iEs/xRYoyxTyJSXGtPv/MkmbidZrWl1x6yzb5E5+gOoXRf5E0DKEwF+M0Y4yFlWCPkjqFa4lF3KiW5LS9xD21b0Q4k/0ed5EoN5jXUkBpSr7/u7qi/3f/d5ahRTA75FTYAy9aB8KSJ4drN8zQknpmkTEKumZWaRuVVARE2xRyUxF5POQ+aY4YHUdaH9vTS1ie/CpdDuBuFhx7zxIJmUGsGBzrl2HGnCUZnpPgThYgKc2nUbQ1KMD2fDUpusSzEzcJLq99Efrh6avBGOdKhSAFDsqC/WXanIU5wSSPuusYanLZ8ufT+9mBNHn0icYCuwlzB3SjRqMwaIpeNzR5nNeUGOTgkSbBgjqjMC1Axn7wHFsqJIhwZUPlZ3W9+s6paItmCVJTY4nup/EurhPchbT3Sd3XU96nFq4a5IU8imT9GiMjTRyCrlqNxLyKgl5BSYlzipqDI6s08ZxVtdCJ6ySQxWl3KS3TBgHmhieQOfhOO/J/1iH6L46WEL5gQa0w7Q3mpQq6CVejfKOEyUYhf/lXZnyZokKEbP7P0mYs1G0YYHVrW8F6+UY/gPlrZwJGUyAAgAAAABJRU5ErkJggg==" class="card1-img" alt="">
+                            <br>
+                            <br>
+                            <div class="card7">
+                                <h5 class="Affordable Cost">Affordable Cost</h5>
+                                <p class="card-text">We help you grow at a reasonable price. Our rates are very competitive, and we disclose all our charges to ensure that you get value for your money.</p>
+                            </div>
+                        </div>
+
+                        <br><br>
+                    </div>
+
+            
+
+                    <div class="body6-2" style="display: flex;margin-left:7.5rem;margin-right:7.5rem;justify-content: space-between;">
+                        <div class="body6-cards" style="width: 15rem; border: 3px solid lightgray; padding-left: 5px; margin-bottom: 20px; border-radius: 10px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAApCAYAAABdnotGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMUSURBVHgB7VhRTttAEH2z61CpX75BHYkC6g/pCTAnaG9ACqrUP+AEwBH4q9SqCjcIJ2i4gb8qpLSyc4N8to2909l1QoNx4gQFko88KYm9nt15u1nPm1nCIxA3g8D+pvCCsucM6tcwSOqtpI85QahwnKEWak/tipdAPg3pEWAucCRu+tIvytL0RqMW1Vu3CWYl1G1uhp6n38Hg/fzOZ0YiRDuDjC+3Wt2olJAjovWZXIZ4XnSQ0YfRqin71TvcOhMy35dABs6n5jgWDvaGYlkZ5GSWD6J9ZZQKsSIwxoQKK4Y1oSooZYPWikCBEwXzpyUROMGyYTmYQVs5vTG0L/pzheWhLQvz1nK5Jx1xcydgjXMCH+CpwRB94zZIXdW/3nZGzWRJFMVORNWH3ggNSOIC74lZAwsBRzLmjSJqI/0djWcDzideBvTrcOtcDA4yNheb37qtSUPFH980YFJRfAoM2FeEV8M5BWNm4oCdE8PouReGOEFNRfXP5QpviRj1oinjHRvmqxGhs7EB21mWXWtkncfkM7PAkpBcquGyCkZTmvx8EnzhFWzlATW19sTIQ3y03bF5jDHoGZNFHlKbdCWYAzanGqDmS8Br5HkVh3YLOMf80N6rGC+UTqEsJ5TWcqstSdvezzflhHDBwzxqmE/V/rejIiesJDQJvoxrlzkofTrd51SstawKKyiuSnWwIlCaRcts2Ca6wLJBOK1/6UZ378Oz6th9SNWhT+utH1HOqwBLzGg+WayGlZAgupGg0ypKCv08fN20F2U6dieyUrGKvOxKZHNaNoxB1cgVPZGryGmbRH1kf0slqXe0fZxKDjSuZYl0ulSG2tNK3Tuyn3YCd5GOBUdSfWjjnE0SUxQnrDaOhcaJ3PpWy4riOppaJEadNM2uRb+iRYmsJZBBy1mBt+fOCQqFaZm4DiF7RzpINXsy1C9LSDYd21Xs2cMDNqbPcH/Hw96gwP0qCvI0hfzRQYV288VEzKplfj4bghq9BnrOmDqjvq2lowrrQnEa1oXiFKxwoVhmu4xCcSqhUpJPVCgW8Q/oGYAsIi2CRAAAAABJRU5ErkJggg==" class="card1-img" alt="">
+                            <br>
+                            <br>
+                            <div class="card8">
+                                <h5 class="Business Growth">Business Growth</h5>
+                                <p class="card-text">Let us take your enterprise to another level. By using data to guide us in coming up with strategies, we can solve any problem thereby propelling you towards success.</p>
+                            </div>
+                        </div>
+
+                        <br><br>
+
+                        <div class="body6-cards" style="width: 15rem; border: 3px solid lightgray; padding-left: 5px; margin-bottom: 20px; border-radius: 10px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAApCAYAAABHomvIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIBSURBVHgB7ZhNTuMwFMf/z8nMdnqEVAN0NBt6A8oJOAKhPQDqCSgnAPZQ0RNwBMoJEDs+5XKDrpFq4yCZFhSn/mrZ5LdK/d5Tf3Hs2DEQkcd8s83zfxkiwhCJ1+7W0a+E3SKRnKtrRIIQgUJOEA2+NEo5aA4fjxFIsGCpnCaCZJBgpZwmUNJb0EpOEyDpJegkp/GUdBb0ktN4SDoJBslpHCWtBaPIaRwkrQSjymksJZcKrkROYyFZKbhSOc0SSaMgzzc6SJJrrAOi3eb5/bgsZNwszFiaYV1I0TCFKh/xS691qu5guyKlAzvGxgjRjeq9gTGMAHivJW3ymhcP3v8TbT+4KmrBUGrBUGrBUGrBUGrBUFKe/28jmRVHFQ2bgpkUo43h0yU8eO5u5gmxfesCJvqpkrtSl5ltDUncff6QmKjtRlZZUOR81rK2yu/AFsGuUxe5AsbYfPslaFcdFp3A3PtTldOf12IPbjTIdsu0iJDo/x0+nLrUvPZahwJwqilI4QEjnKgjtj8Qb2fNy8m0KpfnWQPsdyE3gAdePfiNsTkk1aOnDJYTsAyvHvxGxxwKP35c73uwmNFq/ErQqLJtgRg9aA+jA/15yXtb6m1A7dK2xRKsky+flzQ1ti0QY5K4MBFSjhjRDuZjt6wNc8Fuiy9dDX4KNT5Ti9Xgp/hYhd4BNibZw7I8DXEAAAAASUVORK5CYII=" class="card1-img" alt="">
+                            <br>
+                            <br>
+                            <div class="card9">
+                                <h5 class="Market Strategy">Market Strategy</h5>
+                                <p class="card-text">We will help you succeed where others have failed. The market is full of people who want what you have but do not know about it; let’s make them aware through this winning strategy which targets only those most likely to buy from you.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <br><br>
+                        <div class="body6-cards" style="width: 15rem;border: 3px solid lightgray; padding-left: 5px; margin-bottom: 20px; border-radius: 10px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAApCAYAAAAiT5m3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ+SURBVHgB7ZhLctpAEIb/nlE5WSonsFWuwmSVcAN8gjgnMDHemxvEPkHgANjkBLFPYN8gZBeoJFJOEJaxC81kRiBA6DUSoMrC/4LHTPd8Jam7p0cEJbd1YE9hvUUFsmB5zuC7Rz/atRMOulFjNioSg2wxBf1UJVRLgLqsauhcNhPAZ1QuOSD95Z6/7kCICxAOovPw1JiHMpJqrfX1IIcgdofp3y6FQz/PapeM6OOqmZDy6vB6fIkSyluPZXpLWf75S8r0XYAlmBebZOwNSooxxHwZYRgDc4GHBP+mLi4oKLdVP9C+sQlfeuFPijicHbmxgCB0p1P/DgVkcX6hvk4igypQneuRs7CJukiVWtGAUA4dtVAHm6u3+icaXOKpqz4n2LZ0Wgq6TQU7A2+ijK6wbTH09MawOkRJdr/adVVZ5Cm2IFUZe4f9UexRUZqD2659VdMbbpVy6PTHjaSZ9ALiPx0HJW4D6GyNZFGWa5DDfO+++JXPoEHMlAGXg+dDjcDF4GZQY/AS/kIF3PpWFzJ1rj42TKBaDIZifO9dKlRLldq5jZGMrvh3u3aq+qSBia1u5Pb749yuJhdcBFoETuWhYY4nB1wenEpDw+KQEe1Z8ETwvMn/ggxoGL35qSbfq7J5mwsOugcuddrYedClTyZ8Ap8a67tTPJ24vCkC1QrG0mu7PV8TqWB9i5HUKxlUpBx40z2vN1cHoj1X++g+ATzxIT9IXxhVJLWP25xbSfHx4PRHx0u7EDoriX+wS/mPr8K7tnKrKzgfWy8XjCWY8Z2DhZBxsMAGxxVjLRkBWD9fdbzYx46lGfNTBp5fRVSl/+FVhBTGbcsGmoDom34V8Q9E9ii05DE0tgAAAABJRU5ErkJggg==" class="card1-img" alt="">
+                            <br>
+                            <br>
+                            <div class="card10">
+                                <h5 class="24/7 User Support">24/7 User Support</h5>
+                                <p class="card-text">We never sleep even when others are doing so. This is because we care about our customers very much therefore; their inquiries should be answered without delay at any given time.</p>
+                            </div>
+                        </div>
+
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="body7" style="display: flex; background-color: black;color:white;">
+
+                <div class="body7_content" style="margin:5rem;">
+                    <h2>Unite with the <br> <span style="color:orangered;">Innovators!</span></h2>
+                    <p>Embarking on successful marketing <br> endeavors doesn't require rocket science;</p>
+
+                </div>
+
+                <div class="body7_table" style="margin-top: 5px;">
+                    <table style="border:10px solid white; width:500px;height:300px;text-align: center;">
+                        <tr>
+                            <td><span style="font-size: 40px;color:orangered">97%</span> <br> Web developemnt </td>
+                            <td><span style="font-size: 40px;color:orangered">94%</span> <br> Digital Marketing </td>
+                        </tr>
+                        <tr>
+                            <td><span style="font-size: 40px;color:orangered">90%</span> <br> Development Support </td>
+                            <td><span style="font-size: 40px;color:orangered">80%</span> <br> Staff Argument </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+
+            <br>
+            <br>
+
+            <div class="body8" style="background-color: #f6f6f6;">
+
+                <div class="body8_content">
+                    <h4 style="text-align: center;color: orangered;" >Testimonials</h4>
+                    <p style="text-align: center;">"Genamplify exceeded our expectations with their innovative approach to our website. our vision and executed it flawlessly, resulting in a modern and user-friendly website."</p>
+            
+                </div>
+                
+            
+
+                <div class="body8_cards" style="display:flex; padding:20px; background-color: #f7f7f7;">
+
+                    <div class="body8_cards_content1" style="border:2px solid lightgray;padding:5px;">
+
+                        <p>"Genamplify has been instrumental in transforming our digital presence. Their expertise in web development and design has elevated our brand and improved user experience significantly."</p>
+                        <h6>Credentialing</h6>
+                    </div>
+
+                    <div class="body8_cards_content2" style="border:2px solid lightgray;padding:5px;margin-left: 5px;">
+
+                        <p>"Genamplify exceeded our expectations with their innovative approach to our website. our vision and executed it flawlessly, resulting in a modern and user-friendly website."</p>
+                        <h6>InstaRide</h6>
+                    </div>
+
+                    <div class="body8_cards_content3" style="border:2px solid lightgray; padding:5px;margin-left: 5px;">
+
+                        <p>"Choosing Genamplify for our development needs was one of the best decisions we made. Their dedication to quality and client satisfaction is evident in every aspect of their work".</p>
+                        <h6>Elemove</h6>
+                    </div>
+
+                    <div class="body8_cards_content4" style="border:2px solid lightgray;padding:5px;margin-left: 5px;">
+
+                        <p>"Genamplify has been instrumental in transforming our digital presence. Their expertise in web development and design has elevated our brand and improved user experience significantly."</p>
+                        <h6>Q-Connect</h6>
+                    </div>
+                    <div class="body8_cards_content5" style="border:2px solid lightgray; padding:5px;margin-left: 5px;">
+
+                        <p>"Genamplify exceeded our expectations with their innovative approach to our website. our vision and executed it flawlessly, resulting in a modern and user-friendly website."</p>
+                        <h6>VVP Softech</h6>
+
+                    </div>
+                    <div class="body8_cards_content6" style="border:2px solid lightgray;padding:5px;margin-left: 5px;">
+
+                        <p>"A visual guide could be a wireframe, creative composition, or information architecture. A device that enables collaboration will lessen the chance of work having to be completely redone.".</p>
+                        <h6>Convergence</h6>
+
+                    </div>
+
+                    
+
+
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="body9" style="display: flex;background-color: #f7f7f7;padding:20px 50px;">
+
+                <div class="body9_form" style="background-color: white;">
+
+                    <form action="" style="border:5px solid grey; width:400px; border-radius: 10px; margin-left: 60px;">
+
+                        <input type="text" placeholder="John Carter" style="width:350px;margin:20px 20px 10px 20px;padding:10px;" > <br>
+                        <input type="email" placeholder="example@gmail.com" style="width:350px; margin:10px 10px 10px 20px;padding:10px;"> <br>
+                        <input type="number" placeholder="(123) 456-789" style="width:350px; margin:10px 10px 10px 20px;padding:10px;" > <br>
+                        <textarea placeholder="Your message" style="width:350px; margin:10px 10px 10px 20px;padding:10px;"></textarea> <br>
+                        <button type="button" class="btn btn-light" style="text-align: center; margin:20px; width:350px;">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="body9_content" style="margin-left:100px;">
+                    <h6 style="text-align: left;color:orangered;">Contact Us</h6>
+                    <h3>Get in touch today</h3>
+                    <p>Feel free to reach out anytime—We are here to connect! Whether you have questions or just want to chat, We are ready to help.</p>
+                    <i class="fa-regular fa-envelope"></i> info@genmplify.com <br>
+                    <i class="fa-solid fa-phone"></i>  +91 8374704466 <br>
+                    <i class="fa-solid fa-location-dot"></i> Ayyappa Central Building, 1st Floor, 100ft <br> &nbsp;&nbsp;&nbsp; Road,Madhapur, HYD-500081               
+                 </div>
+
+            </div>
+
+            <br>
+            <br>
+
+            <div class="body10" style="background-color: black;color:white;width:100%; font-size: 13px;">
+                <div class="main_part" style="display: flex;">
+                    <div class="body10_part1" style="margin-left: 50px;width:350px;margin-top: 30px;">
+                        <img src="" alt="Footer Logo"> <br> <br>
+                        <p>Genamplify Solutions: Digital Growth Partner</p>
+                        <p>We specialize in web development, recruitment augmentation, and digital marketing services. Let's amplify your success.</p>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="body10_part2" style="margin-left:40px;width:200px;margin-top: 30px;">
+                        <h6 style="text-align: left;">Quick links</h6 >
+                        <div class="body10_part2_links" style="margin-top: 25px;">
+                            <nav>                      
+                                <a href="#" style="margin-bottom: 10px;">Home</a> <br>
+                                <a href="#">About Us</a> <br>
+                                <a href="#">Services</a> <br>
+                                <a href="#">Clientele</a> <br>
+                                <a href="#">Blog</a> <br>
+                                <a href="#">Contact Us</a> <br>
+                            </nav>
+                        </div>
+                        
+                    </div>
+                    <div class="body10_part3" style="width:350px;margin-top: 30px;margin-left:80px;">
+                        <h6 style="text-align: left;">Office Address</h6>
+                        <p>Head Office <br>
+                            Ayyappa Central Building, 1st Floor, 100ft Road,Madhapur,HYD-500081
+                        </p>
+                        <p>Branch Office <br>
+                            Flat No.: 301, Sri Aparanji Appartments, Plot No.: 102, Ayyappa Society, <br> Madhapur, HYD- 500081
+                        </p>
+                        <p>Onshore Office <br>
+                            2035 S Custer Road Apt 3002, Mckinney, Texas-75072</p>
+                    </div>
+                    <div class="body10_part4" style="margin-top: 30px;margin-right:100px; width:250px;">
+                        <h6 style="text-align: left;">Contact Info</h6>
+
+                        <a href="#"><i class="fa-solid fa-mobile-screen-button"></i> +91 8374704466</a><br>
+                        <a href="#"><i class="fa-regular fa-envelope"></i>  info@genamplify.com</a>
+                    </div>
+                </div>
+
+                <div class="body10_subpart">
+                    <hr style="width:85%;margin-left: 80px;">
+                    <p style="margin-left:300px; margin-top:2px;font-weight: 500;">
+                        2024&copy; Copyright | Genmplify Solutions Hub PVT LTD 
+                        <a href="">Terms and Conditions</a>
+                        <a href="">Privacy Policy</a>
+                    </p>
+                    <br>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>

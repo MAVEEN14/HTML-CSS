@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-color: yellow;
+
+}
+.input{
+    background-color: black;
+    color:white;
+}
+p{
+    color:orangered
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
